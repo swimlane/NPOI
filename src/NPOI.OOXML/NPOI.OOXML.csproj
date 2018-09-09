@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <PackageId>DotNetCore.NPOI</PackageId>   
+    <PackageId>Swimlane.DotNetCore.NPOI</PackageId>
+    <Version>1.2.1</Version>
+    <PackageLicenseUrl>https://github.com/swimlane/NPOI/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/swimlane/NPOI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/swimlane/NPOI</RepositoryUrl>   
   </PropertyGroup>
 
   <ItemGroup>
