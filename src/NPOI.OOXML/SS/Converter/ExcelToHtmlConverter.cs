@@ -756,7 +756,7 @@ namespace NPOI.SS.Converter
                 }
                 else
                 {
-                    XSSFColor color = ((XSSFWorkbook)workbook).GetStylesSource()?.GetTheme()?.GetThemeColor(borderColor);
+                    XSSFColor color = ((XSSFWorkbook)workbook)?.GetStylesSource()?.GetTheme()?.GetThemeColor(borderColor);
                     if (color != null)
                     {
                         borderStyle.Append(' ');
